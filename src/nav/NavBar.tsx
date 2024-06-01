@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-import reactLogo from "../assets/react.svg";
-
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
