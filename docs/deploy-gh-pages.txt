@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=Bk28snjHr7c
+
+Deploy Vite React App to GitHub Pages
+https://www.vddeveloper.online/blog/vite-react-deploy-github
