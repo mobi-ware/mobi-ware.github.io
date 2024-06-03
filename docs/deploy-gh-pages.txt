@@ -1,4 +1,7 @@
+*** These next two links worked for mobi-ware.github.io ***
+*** Did not do the last part involving vite.config.js in 2nd link ***
 https://www.youtube.com/watch?v=Bk28snjHr7c
+https://stackoverflow.com/questions/76115927/page-not-found-react-vite-app-not-routing-correctly-on-github-pages
 
 Deploy Vite React App to GitHub Pages
 https://www.vddeveloper.online/blog/vite-react-deploy-github
