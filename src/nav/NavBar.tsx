@@ -26,7 +26,7 @@ const NavBar = () => {
             <a className="nav-link mx-2" href="/english">English</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link mx-2 active" href="/cooking">Cooking</a>
+            <a className="nav-link mx-2" href="/cooking">Cooking</a>
           </li>
           <li className="nav-item dropdown">
             <a
