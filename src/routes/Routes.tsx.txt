@@ -1,0 +1,40 @@
+import { Routes, Route, HashRouter } from "react-router-dom";
+
+import HomePage from "../pages/HomePage";
+// import App from "../App";
+import EnglishPage from "../pages/English";
+import ArabicPage from "../pages/Arabic";
+import CookingPage from "../pages/Cooking";
+import ArchivesPage from "../pages/Archives";
+import ChurchPage from "../pages/Church";
+import HandymanPage from "../pages/Handyman";
+import MVPPage from "../pages/MVP";
+import TravelPage from "../pages/Travel";
+import TVPage from "../pages/TV";
+import VideoPage from "../pages/Video";
+import ImagesPage from "../pages/Images";
+import MusicPage from "../pages/Music"
+
+const router = () => {
+    return (
+<HashRouter>
+      <Routes>
+      <Route path="/" element={<HomePage children={null} />} />
+        <Route path="/englisg" element={<EnglishPage />} />
+        <Route path="/arabic" element={<ArabicPage />} />
+        <Route path="/cooking" element={<CookingPage />} />
+        <Route path="/church" element={<ChurchPage />} />
+        <Route path="/archives" element={<ArchivesPage />} />
+        <Route path="/handyman" element={<HandymanPage />} />
+        <Route path="/mvp" element={ <MVPPage /> } />
+        <Route path="/travel" element={ <TravelPage /> } />
+        <Route path="/tv" element={<TVPage />} />
+        <Route path="/video" element={<VideoPage />} />
+        <Route path="/images" element={<ImagesPage />} />
+        <Route path="/music" element={<MusicPage />} />
+      </Routes>
+</HashRouter>
+    );
+}
+
+export default router;

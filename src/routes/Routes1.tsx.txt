@@ -1,8 +1,9 @@
-import { createBrowserRouter } from 'react-router-dom';
-import HomePage from "../pages/HomePage";
+// import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from 'react-router-dom';
+import HomePage from "../pages/Home";
 import App from "../App";
-import ArabicPage from "../pages/Arabic";
 import EnglishPage from "../pages/English";
+import ArabicPage from "../pages/Arabic";
 import CookingPage from "../pages/Cooking";
 import ArchivesPage from "../pages/Archives";
 import ChurchPage from "../pages/Church";
@@ -17,17 +18,21 @@ import MusicPage from "../pages/Music";
 /**
  * The router configuration for the application.
  */
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     element: <App />,
     children: [
       {
         path: "/",
-        element: <HomePage title={"Medhat مدحت 🇪🇬"} 
-        subtitle={""}>
-          Ethiopia, Egypt, Canada
-        </HomePage>
+        element: (
+          <HomePage
+            title={"Hello, welcome to students-react with Typescript!"}
+            subtitle={"You can view some of your favorite students here."}
+          >
+            Surely, school is fun.
+          </HomePage>
+        ),
       },
       {
         path: "/arabic",
